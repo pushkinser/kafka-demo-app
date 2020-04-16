@@ -21,7 +21,7 @@ See APP_PORT in app console log, e.g:
 
 <br>
 And also can open kafka's terminal for test topic and see app result.
-<br>
+
 <b>Producer</b>: `kafka_2.13\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic test`
 <br>
 <b>Consumer</b>: `kafka_2.13\bin\windows>kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test`
