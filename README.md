@@ -8,7 +8,7 @@ Install and start Zookeeper server:
 Install and start Kafka:
 `kafka_2.13\bin\windows>.\bin\windows\kafka-server-start.bat .\config\server.properties`
 
-Create topic fore kafka-demo-app:
+Create topic for kafka-demo-app:
 `kafka_2.13\bin\windows>kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test`
 
 Should see `Created topic test.`
